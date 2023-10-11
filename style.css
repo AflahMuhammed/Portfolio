@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+  }
+  #CONTACT {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  #logo {border-radius: 40px;
+      margin: 10px;
+      transition: 0.1s ease-in-out;
+  }
+  #logo:hover {transform: translateY(-10px);
+      opacity: 0.5;
+      animation: rotate 1s ease-in-out;
+  }
+  @keyframes rotate {
+      0%{transform: rotate(0deg) scale(1);}
+      50%{transform: rotate(180deg) scale(1.5);}
+      100%{transform: rotate(360deg) scale(1);}
+  }
+  h4 {text-align: center;}
+  
+  
